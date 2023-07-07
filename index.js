@@ -22,46 +22,46 @@ const body = query.get('body')
 
 const allProjects = [
     {
-        img: './img/perfil.png',
-        title: 'Card',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt consequuntur iure nam quia deleniti eaque officia in eos at odit laudantium quisquam modi autem. Ipsam quas earum dolor soluta.',
+        img: './img/soon.png',
+        title: 'Coming Soon',
+        text: 'This project is coming soon',
         linkLive: '',
         linkCode: ''
     },
     {
-        img: './img/perfil.png',
-        title: 'Section',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt consequuntur iure nam quia deleniti eaque officia in eos at odit laudantium quisquam modi autem. Ipsam quas earum dolor soluta.',
+        img: './img/soon.png',
+        title: 'Coming Soon',
+        text: 'This project is coming soon',
         linkLive: '',
         linkCode: ''
     },
     {
-        img: './img/perfil.png',
-        title: 'Search',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt consequuntur iure nam quia deleniti eaque officia in eos at odit laudantium quisquam modi autem. Ipsam quas earum dolor soluta.',
-        linkLive: 'https://www.google.com/',
-        linkCode: 'https://www.google.com/'
-    },
-    {
-        img: './img/perfil.png',
-        title: '1',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt consequuntur iure nam quia deleniti eaque officia in eos at odit laudantium quisquam modi autem. Ipsam quas earum dolor soluta.',
+        img: './img/soon.png',
+        title: 'Coming Soon',
+        text: 'This project is coming soon',
         linkLive: '',
         linkCode: ''
     },
     {
-        img: './img/perfil.png',
-        title: '2',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt consequuntur iure nam quia deleniti eaque officia in eos at odit laudantium quisquam modi autem. Ipsam quas earum dolor soluta.',
+        img: './img/soon.png',
+        title: 'Coming Soon',
+        text: 'This project is coming soon',
         linkLive: '',
         linkCode: ''
     },
     {
-        img: './img/perfil.png',
-        title: '3',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nesciunt consequuntur iure nam quia deleniti eaque officia in eos at odit laudantium quisquam modi autem. Ipsam quas earum dolor soluta.',
-        linkLive: 'https://www.google.com/',
-        linkCode: 'https://www.google.com/'
+        img: './img/soon.png',
+        title: 'Coming Soon',
+        text: 'This project is coming soon',
+        linkLive: '',
+        linkCode: ''
+    },
+    {
+        img: './img/soon.png',
+        title: 'Coming Soon',
+        text: 'This project is coming soon',
+        linkLive: '',
+        linkCode: ''
     }
 ]
 
