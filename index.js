@@ -25,43 +25,43 @@ const allProjects = [
         img: './img/soon.png',
         title: 'Coming Soon',
         text: 'This project is coming soon',
-        linkLive: '',
-        linkCode: ''
+        linkLive: '#',
+        linkCode: '#'
     },
     {
         img: './img/soon.png',
         title: 'Coming Soon',
         text: 'This project is coming soon',
-        linkLive: '',
-        linkCode: ''
+        linkLive: '#',
+        linkCode: '#'
     },
     {
         img: './img/soon.png',
         title: 'Coming Soon',
         text: 'This project is coming soon',
-        linkLive: '',
-        linkCode: ''
+        linkLive: '#',
+        linkCode: '#'
     },
     {
         img: './img/soon.png',
         title: 'Coming Soon',
         text: 'This project is coming soon',
-        linkLive: '',
-        linkCode: ''
+        linkLive: '#',
+        linkCode: '#'
     },
     {
         img: './img/soon.png',
         title: 'Coming Soon',
         text: 'This project is coming soon',
-        linkLive: '',
-        linkCode: ''
+        linkLive: '#',
+        linkCode: '#'
     },
     {
         img: './img/soon.png',
         title: 'Coming Soon',
         text: 'This project is coming soon',
-        linkLive: '',
-        linkCode: ''
+        linkLive: '#',
+        linkCode: '#'
     }
 ]
 

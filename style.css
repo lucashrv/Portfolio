@@ -57,7 +57,6 @@ html {
     background-color: var(--purple);
 }
 
-
 #chk:checked ~ .switch .slider {
     transform: translateX(31px);
 }
@@ -137,7 +136,6 @@ header {
 }
 
 #menu-mobile {
-    /* display: none; */
     width: 100%;
     position: fixed;
     bottom: -100vh;
@@ -165,6 +163,7 @@ header {
 }
 
 /* About Section */
+
 .section-about{
     animation: inicializar .7s forwards;
     display: flex;
@@ -564,9 +563,6 @@ header {
     }
 }
 
-
-
-/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
 @media (max-width: 575.98px) {
     .section-about h1 {
         font-size: 2.3rem;
@@ -587,7 +583,6 @@ header {
     }
 }
 
-/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (max-width: 767.98px) {
     .menu-icon {
         display: block;
@@ -631,7 +626,6 @@ header {
     }
 }
 
-/* Dispositivos médios (tablets com 768px ou mais) */
 @media (max-width: 991.98px) {
     .section-about{
         flex-direction: column-reverse;
@@ -666,17 +660,4 @@ header {
     .container-links:hover {
         scale: .85;
     }
-}
-
-
-
-
-/* Dispositivos large (desktops com 992px ou mais) */
-@media (max-width: 1199.98px) {
-
-}
-
-/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
-@media (min-width: 1200px) {
-
 }
