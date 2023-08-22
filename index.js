@@ -22,11 +22,11 @@ const body = query.get('body')
 
 const allProjects = [
     {
-        img: './img/soon.png',
-        title: 'Coming Soon',
-        text: 'This project is coming soon',
-        linkLive: '#',
-        linkCode: '#'
+        img: './img/dev-store.png',
+        title: 'Dev Store',
+        text: 'Project Full-stack inspired by an virtual store, cart and image upload with multer',
+        linkLive: 'https://dev-store-app.netlify.app/',
+        linkCode: 'https://github.com/lucashrv/dev-store/'
     },
     {
         img: './img/soon.png',
@@ -285,8 +285,8 @@ const renderAllProjects = (array) => {
                     <h3>${project.title}</h3>
                     <p>${project.text}</p>
                     <div class="card-buttons">
-                        <a href='${project.linkLive}' class="live">See live</a>
-                        <a href='${project.linkCode}'class="code">Code</a>
+                        <a href='${project.linkLive}' class="live" target="_blank" >See live</a>
+                        <a href='${project.linkCode}'class="code" target="_blank" >Code</a>
                     </div>
                 </div>
             </div>
