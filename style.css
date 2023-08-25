@@ -19,7 +19,7 @@ html {
 }
 
 #container {
-    max-width: 1400px;
+    max-width: 100%;
     min-width: 350px;
     transition: all .3s linear;
     margin: 0 auto;
@@ -68,7 +68,6 @@ header {
     margin: 0 auto;
     width: 100%;
     z-index: 1001;
-    max-width: 1400px;
     min-width: 350px;
 }
 
