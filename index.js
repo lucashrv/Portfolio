@@ -30,10 +30,10 @@ const allProjects = [
     },
     {
         img: './img/soon.png',
-        title: 'Coming Soon',
-        text: 'This project is coming soon',
+        title: 'E-Commerce',
+        text: 'Working on the Fullstack project with React, Redux, Node, Sequelize and Postgres',
         linkLive: '#',
-        linkCode: '#'
+        linkCode: 'https://github.com/lucashrv/ecommerce-front/'
     },
     {
         img: './img/soon.png',
