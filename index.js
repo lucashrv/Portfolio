@@ -22,19 +22,27 @@ const body = query.get('body')
 
 const allProjects = [
     {
+        img: './img/soon.png',
+        title: 'E-Commerce',
+        text: 'Working on the Fullstack project with React, Redux, Node, Sequelize and PostgreSQL',
+        linkLive: '#',
+        linkCode: 'https://github.com/lucashrv/ecommerce-front/'
+    },
+    {
+        img: './img/soon.png',
+        title: 'Finance',
+        text: 'Personal finances project with React, Redux, Node, Express, Sequelize, PostgreSQL',
+        linkLive: '#',
+        linkCode: 'https://github.com/lucashrv/finance-front'
+    },
+    {
         img: './img/dev-store.png',
         title: 'Dev Store',
         text: 'Project Full-stack inspired by an virtual store, cart and image upload with multer',
         linkLive: 'https://dev-store-app.netlify.app/',
         linkCode: 'https://github.com/lucashrv/dev-store/'
     },
-    {
-        img: './img/soon.png',
-        title: 'E-Commerce',
-        text: 'Working on the Fullstack project with React, Redux, Node, Sequelize and Postgres',
-        linkLive: '#',
-        linkCode: 'https://github.com/lucashrv/ecommerce-front/'
-    },
+
     {
         img: './img/soon.png',
         title: 'Coming Soon',
@@ -309,24 +317,24 @@ const filterSearch = () => {
     state.totalPage = Math.ceil(searchProjects.length / itemsPerPage)
 
     const list = {
-      element: query.get('#card-container'),
-      update() {
-        list.element.innerHTML = ''
+        element: query.get('#card-container'),
+        update() {
+            list.element.innerHTML = ''
 
-        let page = state.page - 1
-        let start = page * state.itemsPerPage
-        let end = start + state.itemsPerPage
+            let page = state.page - 1
+            let start = page * state.itemsPerPage
+            let end = start + state.itemsPerPage
 
-        const paginatedItems = searchProjects.slice(start, end)
-        return paginatedItems
-      }
-  }
+            const paginatedItems = searchProjects.slice(start, end)
+            return paginatedItems
+        }
+    }
 
-  const update = () => {
-    buttons.update()
-  }
+    const update = () => {
+        buttons.update()
+    }
 
-  update()
+    update()
 
     renderAllProjects(list.update())
 }
@@ -357,7 +365,7 @@ menuLinks.forEach(a => {
         const id = element.getAttribute('href')
         const sectionTop = document.querySelector(id).offsetTop
 
-        if(id === '#projects'){
+        if (id === '#projects') {
             menu.innerHTML = 'menu'
             menuItems.style.top = '-100vh'
             body.style.overflowY = 'auto'
